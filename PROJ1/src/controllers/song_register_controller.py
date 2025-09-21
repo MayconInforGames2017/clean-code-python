@@ -28,7 +28,7 @@ class SongRegisterController:
 
     def __format_response(self, new_song_informations: dict) -> dict:
         return {
-            "succes": True,
+            "success": True,
             "count": 1,
             "attributes": {
                 "title": new_song_informations["title"]
